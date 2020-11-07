@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 // memanggil model Pengguna
+// Cek
 use App\Pengguna;
 
 class PenggunaController extends Controller
