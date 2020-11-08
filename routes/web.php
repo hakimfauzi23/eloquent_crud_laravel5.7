@@ -30,3 +30,4 @@ Route::get('/guru/hapus_permanen/{id}', 'GuruController@hapus_permanen');
 Route::get('/guru/hapus_permanen_semua', 'GuruController@hapus_permanen_semua');
 Route::get('/pengguna', 'PenggunaController@index');
 Route::get('/article', 'WebController@index');
+Route::get('/anggota', 'PrizeController@index');
